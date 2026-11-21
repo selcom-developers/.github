@@ -10,7 +10,7 @@ Every client is built from one shared specification and checked against the same
 
 | Project | Language | What it is |
 |---|---|---|
-| [selcom-java](https://github.com/selcom-developers/selcom-java) | Java 17+ | Client for the Selcom API gateway: signing, checkout, payouts, webhooks |
+| [selcom4j](https://github.com/selcom-developers/selcom4j) | Java 17+ | Client for the Selcom API gateway: signing, checkout, payouts, webhooks |
 | [selcom-node](https://github.com/selcom-developers/selcom-node) | TypeScript / Node.js 20+ | Client with zero runtime dependencies, ESM and CommonJS |
 | [selcom-php](https://github.com/selcom-developers/selcom-php) | PHP 8.2+ | Framework-agnostic client over PSR-18 |
 | [selcom-spec](https://github.com/selcom-developers/selcom-spec) | Specification | Signing rules, API notes and the shared test vectors |
