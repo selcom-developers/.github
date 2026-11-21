@@ -2,6 +2,8 @@
 
 Community-maintained, open-source clients for the [Selcom](https://www.selcom.net) payment API gateway in Tanzania.
 
+Documentation and the shared spec: **[selcom-developers.github.io](https://selcom-developers.github.io/)**
+
 This organization is not operated by Selcom Paytech Ltd. For API credentials, onboarding and account questions, contact Selcom through the [developer portal](https://developers.selcommobile.com/).
 
 ## Clients
