@@ -13,7 +13,7 @@ Every client is built from one shared specification and checked against the same
 | Project | Language | What it is |
 |---|---|---|
 | [selcom4j](https://github.com/selcom-developers/selcom4j) | Java 17+ | Client for the Selcom API gateway: signing, checkout, payouts, webhooks |
-| [selcom-node](https://github.com/selcom-developers/selcom-node) | TypeScript / Node.js 20+ | Client with zero runtime dependencies, ESM and CommonJS |
+| [node-selcom](https://github.com/selcom-developers/node-selcom) | TypeScript / Node.js 20+ | Client with zero runtime dependencies, ESM and CommonJS |
 | [selcom-php](https://github.com/selcom-developers/selcom-php) | PHP 8.2+ | Framework-agnostic client over PSR-18 |
 | [laravel-selcom](https://github.com/selcom-developers/laravel-selcom) | Laravel 12 / 13 | Laravel package on the PHP client: config, webhooks, events, reconciliation |
 | [selcompy](https://github.com/selcom-developers/selcompy) | Python 3.10+ | Sync and async client on httpx |
