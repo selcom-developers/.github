@@ -1,16 +1,21 @@
 # Selcom Developers
 
-Community-maintained tools for building on the [Selcom](https://www.selcom.net) payment APIs in Tanzania.
+Community-maintained, open-source clients for the [Selcom](https://www.selcom.net) payment API gateway in Tanzania.
 
-This organization is run by developers who integrate Selcom in production. It is not operated by Selcom Paytech Ltd. For API credentials, onboarding and account questions, contact Selcom through the [developer portal](https://developers.selcommobile.com/).
+This organization is not operated by Selcom Paytech Ltd. For API credentials, onboarding and account questions, contact Selcom through the [developer portal](https://developers.selcommobile.com/).
 
-## What we maintain
+## Clients
 
-| Project | What it is | Status |
+Every client is built from one shared specification and checked against the same test vectors, so signing, results and webhook handling behave the same in every language.
+
+| Project | Language | What it is |
 |---|---|---|
-| [selcom-apigw-client-java](https://github.com/selcom-developers/selcom-apigw-client-java) | Java client for the Selcom API gateway, continued from Selcom's official client | Active |
+| [selcom-java](https://github.com/selcom-developers/selcom-java) | Java 17+ | Client for the Selcom API gateway: signing, checkout, payouts, webhooks |
+| [selcom-node](https://github.com/selcom-developers/selcom-node) | TypeScript / Node.js 20+ | Client with zero runtime dependencies, ESM and CommonJS |
+| [selcom-php](https://github.com/selcom-developers/selcom-php) | PHP 8.2+ | Framework-agnostic client over PSR-18 |
+| [selcom-spec](https://github.com/selcom-developers/selcom-spec) | Specification | Signing rules, API notes and the shared test vectors |
 
-One project, maintained properly, is the goal. The Java client is used in production payment systems, and it is where fixes and improvements land first.
+All projects are Apache-2.0 licensed.
 
 ## Official resources
 
@@ -25,4 +30,4 @@ One project, maintained properly, is the goal. The Java client is used in produc
 
 ## Contributing
 
-Issues and pull requests are welcome on the Java client. For a question about the Selcom API itself, the developer portal and Selcom support are the right place.
+Issues and pull requests are welcome on every client. Changes to shared behaviour start in [selcom-spec](https://github.com/selcom-developers/selcom-spec), so all clients stay in step. To report a security issue, use each repository's private vulnerability reporting rather than a public issue. For questions about the Selcom API itself, the developer portal and Selcom support are the right place.
