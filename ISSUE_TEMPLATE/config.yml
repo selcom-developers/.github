@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Selcom API access, credentials and account support
+    url: https://developers.selcommobile.com/
+    about: These projects are not affiliated with Selcom Paytech Ltd. Contact Selcom for account questions.
